@@ -1,7 +1,6 @@
   def isSymmetric(root: TreeNode) -> bool:
       if root is None:
           return True
-
       return check(root.left, root.right)
 
   def check(self, left, right):
