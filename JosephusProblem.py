@@ -11,4 +11,4 @@
           return run(removeIndex, arr)
 
       res = run(0, arr)
-      return res 
+      return res
