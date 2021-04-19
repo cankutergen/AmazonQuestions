@@ -1,5 +1,4 @@
   def rotateRight(head: ListNode, k: int) -> ListNode:
-
       if not head:
           return None
 
