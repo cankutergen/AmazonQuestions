@@ -1,7 +1,6 @@
 def isValid(root):
 
-    def checkNode(root, minimum, maximum):
-        
+    def checkNode(root, minimum, maximum):       
         if root is None:
             return True
 
